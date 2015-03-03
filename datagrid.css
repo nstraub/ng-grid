@@ -1,0 +1,82 @@
+﻿.data-grid {
+    list-style: none;
+}
+
+.data-grid__column {
+    display: inline-block;
+    -moz-min-width: 100px;
+    -ms-min-width: 100px;
+    -o-min-width: 100px;
+    -webkit-min-width: 100px;
+    min-width: 100px;
+}
+
+.data-grid__column__list {
+    list-style: none;
+    padding: 0;
+}
+
+.data-grid__column__list > li {
+    height: 22px;
+}
+
+.data-grid__cell {
+    border: 1px solid black;
+    margin: -1px 0 0 -1px;
+    width: 125px;
+}
+
+.header__title {
+    font-weight: bold;
+}
+
+.list__header {
+    width: 125px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: -1px 0 0 -1px;
+}
+
+.cell {
+    display: inline-block;
+    width:115px;
+    height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    -moz-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+}
+
+.boolean-filter {
+    width: 12px;
+    height: 12px;
+    border: 1px solid black;
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+}
+
+.boolean--true {
+    background-color: green;
+}
+.boolean--false {
+    background-color: red;
+}
+
+input.filter {
+    width: 123px;
+    margin-left: -1px;
+}
+
+.search {
+    float: right;
+}
+
+.search-true {
+    color: darkgoldenrod;
+}
+
+a.search, a.search:visited, a.search:active {
+    color: black;
+}
